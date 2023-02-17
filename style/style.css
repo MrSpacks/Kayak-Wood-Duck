@@ -38,7 +38,7 @@ body{
   justify-content: space-between;
 
 }
-.header_nav-item {
+.header_nav-item,.footer_contact {
   font-size: 1rem;
   font-weight: 700;
   display: inline-block;
@@ -72,7 +72,7 @@ body{
   width: 560px;
   padding: 10px;
 }
-.Header_plans {
+.Header_plans{
   position: fixed;
   background-color: #3DD1E7;
   border: 0 solid #E5E7EB;
@@ -132,7 +132,17 @@ body{
 .main_video-item{
   padding: 10px;
 }
-
+.footer_conteiner {
+    padding-top: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer_conacts {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_contact {
+}
 
 /*  ADAPTIV  */
 
